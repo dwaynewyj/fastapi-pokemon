@@ -5,7 +5,6 @@ from app.schemas.pokemon import Pokemon
 from app.services.pokemon_service import fetch_pokemon_details, get_pokemon_by_name, get_pokemon_by_id
 from typing import Dict, Any
 
-
 router = APIRouter()
 
 class PokemonRequest(BaseModel):

@@ -33,8 +33,6 @@ This project implements a REST API for accessing detailed Pokémon information. 
 - **Docker Compose (for managing multi-container applications)**
 
 
-
-
 ## Installation
 
 1. Clone the repository:
