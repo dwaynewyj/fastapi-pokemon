@@ -9,7 +9,7 @@ This project implements a REST API for accessing detailed Pokémon information. 
 - Author: Dwayne Jang
 - Created: 202407241700
 - Updated: 202407241759
-- 
+  
 ## Features
 
 - **Pokémon Species Endpoint**: Provides a list of Pokémon species with detailed information, including image URLs, colors, habitats, and more. Supports pagination and customizable results.
