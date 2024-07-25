@@ -42,14 +42,9 @@ Endpoints for interacting with Pokemon species data.
 
 - **GET /v1/species**: Retrieve a list of Pokemon species.
     - **Query Parameters**:
-        - `skip` (int, optional): Number of items to skip (default 0).
-        - `limit` (int, optional): Maximum number of items to return (default 10, max 100).
+        - `index` (int, optional): Number of items to skip (default 0).
+        - `count` (int, optional): Maximum number of items to return (default 10, max 100).
     - **Response**: A list of Pokemon species objects.
-
-- **GET /v1/species/{species_id}**: Retrieve details of a specific Pokemon species by ID.
-    - **Path Parameters**:
-        - `species_id` (int): The ID of the Pokemon species.
-    - **Response**: A JSON object with details of the specified Pokemon species.
 """
 app.include_router(species.router, prefix="/v1", tags=["species"])
 
